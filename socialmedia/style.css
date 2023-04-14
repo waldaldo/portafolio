@@ -1,10 +1,15 @@
-@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Source+Sans+Pro:wght@900&display=swap");
-/* https://fonts.google.com/ */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+}
+
+*:focus,
+*:active {
+  outline: none !important;
+  -webkit-tap-highlight-color: transparent;
 }
 
 html,
@@ -15,41 +20,6 @@ body {
   font-family: "Poppins", sans-serif;
   place-items: center;
   background: linear-gradient(315deg, #ffffff, #d7e1ec);
-}
-
-.page-wrapper {
-  display: grid;
-  place-items: center;
-  text-align: center;
-}
-
-h1 {
-  color: black;
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 5em;
-  letter-spacing: -0.04em;
-}
-
-p {
-  color: rgb(192, 84, 208);
-  font-family: "Comfortaa", cursive;
-  font-size: 1.5em;
-  margin: 15px 0;
-}
-
-.divider {
-  color: black;
-}
-
-.icon {
-  color: black;
-  padding: 15px;
-  border-radius: 50%;
-}
-
-.icon:hover {
-  cursor: pointer;
-  background-color: rgb(192, 84, 208);
 }
 
 .wrapper {
