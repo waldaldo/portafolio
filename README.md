@@ -14,7 +14,7 @@ Designed to keep simplicity in mind in both setup and UI.
  
 ## Installation
 
-1. `git clone https://github.com/adrianedutecno/landing.git`
+1. `git clone https://github.com/waldaldo/portfolio.git`
 
 2. Open `index.html`. That's it!
 
