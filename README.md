@@ -16,7 +16,16 @@ Designed to keep simplicity in mind in both setup and UI.
 
 1. `git clone https://github.com/waldaldo/portfolio.git`
 
-2. Open `index.html`. That's it!
+2. Open `index.html` in your browser. This is the landing page and main entry point for the site.
+
+## Additional Pages
+
+This project also includes a few demo pages:
+
+* `todo/index.html` - simple to-do list demo
+* `socialmedia/index.html` - social media icons demo
+
+Open these files directly in your browser or navigate to `/todo/` and `/socialmedia/` if deploying the site to a server.
 
 ## License
 
