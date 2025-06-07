@@ -162,3 +162,26 @@ p {
   color: #ffffff;
 }
 
+@media (max-width: 600px) {
+  h1 {
+    font-size: 3em;
+  }
+
+  p {
+    font-size: 1.2em;
+  }
+
+  .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .wrapper .icon {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    font-size: 16px;
+  }
+}
+
